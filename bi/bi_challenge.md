@@ -18,11 +18,12 @@ A tabela abaixo representa propagandas realizadas em determinada região e pais.
 | 11 | 2018-11-07 | LATAM | AR |
 	 
 Escreva uma consulta SQL que retorne os seguintes valores:
-1. Total de propagandas na data corrente por pais. (A)
-2. Total de propagandas na data anterior por pais. (B)
+1. Total de "ads" na data corrente por pais. (A)
+2. Total de "ads" na data anterior por pais. (B)
 3. A diferença entra (A) e (B).
-4. Total de propagandas na data corrente por região.
+4. Total de "ads" na data corrente por região.
 5. O percentual de propagandas por pais/data dentro de sua região.
+OBS: entenda "data corrente" por a data da linha que apresentará o resultado. Exemplo, na linha 1, a "data corrente" é 2018-11-06. Na linha 5, a "data corrente" é  "2018-11-07" e a "data anterior por país" é "2018-11-06".
 
 Recomendamos você utilizar o [SQLFiddle](http://sqlfiddle.com) e o [arquivo SQL](data.sql) para construir a tabela com os seus dados e testar suas consultas.
 
@@ -47,7 +48,7 @@ Os usuários nos reportaram um problema: Quando o cliente altera o estado civil 
 
 
 ### 3. Modelo de Dados
-Desenhe um modelo de dados (entidade-relacionamento) que você já tenha trabalho/criado/construído anteriormente. Fique a vontade eapra escolher uma área de negócios que você se sinta mais confortável. Tente explicar as razões the usar essa solução falando sobre os prós e contras.
+Desenhe um modelo de dados (entidade-relacionamento) que você já tenha trabalho/criado/construído anteriormente, com foco em criação de relatórios/apresentação de KPIs. Fique a vontade eapra escolher uma área de negócios que você se sinta mais confortável. Tente explicar as razões the usar essa solução falando sobre os prós e contras.
 
 ## Como entregar
 Esperamos receber um arquivo através do email com o seu nome (ex.: NomeSobrenome.zip) contendo as respostas do desafio.

@@ -1,4 +1,4 @@
-## Desafio Business Intelligence
+## Desafio Data Engineering - SQL
 
 ### 1. Desafio de SQL
 A tabela abaixo representa propagandas realizadas em determinada região e pais. 
@@ -24,7 +24,8 @@ Escreva uma consulta SQL que retorne os seguintes valores:
 4. Total de propagandas por dia, por região.
 5. O percentual de propagandas por pais/data dentro de sua região.
 
-Recomendamos você utilizar o [SQLFiddle](http://sqlfiddle.com) e o [arquivo SQL](data.sql) para construir a tabela com os seus dados e testar suas consultas.
+Recomendamos você utilizar o [SQLFiddle](http://sqlfiddle.com), PostgreSQL como engine de SQL, e o [arquivo SQL](data.sql) para construir a tabela com os seus dados e testar suas consultas.
+Pense em usar CTEs e Window Functions para auxiliar
 
 O resultado esperado é:
 

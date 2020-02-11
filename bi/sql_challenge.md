@@ -18,11 +18,11 @@ A tabela abaixo representa propagandas realizadas em determinada região e pais.
 | 11 | 2018-11-07 | LATAM | AR |
 	 
 Escreva uma consulta SQL que retorne os seguintes valores:
-1. Total de propagandas por dia, por pais. (A)
-2. Total de propagandas na data anterior por pais. (B)
+1. Total de "ads" por dia, por pais. (A)
+2. Total de "ads" na data anterior por pais. (B)
 3. A diferença entra (A) e (B).
-4. Total de propagandas por dia, por região.
-5. O percentual de propagandas por pais/data dentro de sua região.
+4. Total de "ads" por dia, por região.
+5. O percentual de "ads" por pais/data dentro de sua região.
 
 Recomendamos você utilizar o [SQLFiddle](http://sqlfiddle.com), PostgreSQL como engine de SQL, e o [arquivo SQL](data.sql) para construir a tabela com os seus dados e testar suas consultas.
 Pense em usar CTEs e Window Functions para auxiliar
